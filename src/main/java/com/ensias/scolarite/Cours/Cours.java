@@ -48,4 +48,5 @@ public class Cours {
     public void setModule(Module module) {
         this.module = module;
     }
+    //test
 }
