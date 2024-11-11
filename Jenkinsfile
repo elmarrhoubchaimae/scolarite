@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    tools{
-        maven "maven"
-    }
+    
     environment {
         SONAR_PROJECT_KEY = 'elmarrhoubchaimae_scolarite'
         SONAR_ORGANIZATION = 'elmarrhoubchaimae'
